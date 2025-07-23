@@ -1,5 +1,5 @@
 `include "constants.v"
-module stall_logic_ld_st_hazard(input clk,rst,
+module stall_logic_ld_use_hazard(input clk,rst,
 input [31:0] i1,i2,
 output reg [5:1]stall);
 
