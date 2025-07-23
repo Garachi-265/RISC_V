@@ -61,7 +61,7 @@ end
 
 
 
-stall_logic_ld_st_hazard s1(clk1,rst,IF_instruction,OF_instruction,stall);
+stall_logic_ld_use_hazard s1(clk1,rst,IF_instruction,OF_instruction,stall);
 
 
 
